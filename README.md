@@ -1,6 +1,9 @@
 # AttendanceBot
 This is simple project based on Seleium. It opens the browser with the provided class link by user and join it at a given time. It currently works on Chrome Browser Only.
 
+### Note : Chrome browser should be closed at the scheduled time otherwise it won't work
+
+
 # Requirements
 - Selenium [-read docs to setup](https://selenium-python.readthedocs.io/)
 - Chrome Browser
