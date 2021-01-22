@@ -35,7 +35,7 @@ def initiate(hours, minutes, link):
     # runAt = currentTime + timedelta(hours= hours, minutes= minutes)
     # delay = (runAt - currentTime).total_seconds()
     delay = delta_t.total_seconds()
-    print("Class will start after : " + delay + "sec")
+    print("Class will start after : " + str(delay) + "sec")
     Timer(delay , lambda : startClass(link)).start()
     # startClass(link)
     
